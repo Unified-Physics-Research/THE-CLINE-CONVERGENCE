@@ -28,7 +28,7 @@ We do not model the boundary; we monitor it. Traditional physics uses calculus t
 
 ### **Exhibit C: The Gravity Proof (The Imperial Bow)**
 *Standard physics assumes empty space (Newton). Imperial Math corrects for vacuum density ($\chi = 0.15$), revealing the true "Bow" of gravitational force.*
-![Imperial Bow Gravity](docs/imperial_bow_gravity.png)
+![Imperial Bow Gravity](docs/chart c.png)
 
 ## Repository Structure
 
