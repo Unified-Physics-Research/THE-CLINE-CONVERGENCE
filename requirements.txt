@@ -1,0 +1,5 @@
+# Imperial Physics Framework
+# No external dependencies required - uses Python standard library only
+
+# Python 3.6+ is required for f-strings and type hints
+# python>=3.6
