@@ -54,7 +54,6 @@ def generate_signal(mode, duration, verbose=True):
                 sys.stdout.flush()
 
             # Wait for the exact period to elapse (Simulating the Pulse)
-            # In a real hardware GPIO implementation, this triggers the PIN high/low
             while (time.time() - cycle_start) < period:
                 pass
             
@@ -85,8 +84,7 @@ def show_info():
         Λ = χ / α  (Vacuum Limit / Fine Structure)
     
     [MECHANISM]
-    Standard physics treats this as "ELF-EMF" (Extremely Low 
-    Frequency Electromagnetic Field).
+    Standard physics treats this as "ELF-EMF".
     Imperial Physics identifies it as the "Gear Ratio" required 
     to mechanically couple electromagnetic energy to the 
     vacuum lattice (microtubule resonance).
@@ -102,9 +100,6 @@ def show_info():
     a Tri-Grid (Bucking Coil) topology.
     """)
 
-# ------------------------------------------------------------------
-# 4. MAIN EXECUTION
-# ------------------------------------------------------------------
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Cline Medical Coil Driver")
     parser.add_argument("--mode", type=str, default="square", choices=["square", "scalar"], help="Waveform type")
