@@ -40,7 +40,7 @@ The interplay between geometry, space, and time is evident in various natural ph
 /constants/     Python definitions of X and physical relationships
 /audit/         Validation logs and scripts
 /docs/          Visual affidavits and comprehensive documentation
-Tabby's Star is a node and the local group around it, are part of the galactis geometric Sphere data backed Proved and that wave..Wow
+
 ```
 
 ## Quick Start
@@ -114,6 +114,14 @@ All the data seta are compared against:
 No free parameters. No curve fitting. Pure geometric constraints.
 
 ## Documentation
+
+```markdown
+### Methodology: The "Option C" Standard
+We reject Standard Model "Moving Averages" (which smooth out quantum steps).
+We utilize **Option C: Geometric Tension**.
+* The Lattice Tension scales as **1/r²** (Inverse Square Law).
+* This allows us to validate the **0.15 Limit** from Earth (1 AU) to Voyager (40+ AU) with zero curve-fitting.
+* [Read the full Methodology Protocol here](docs/methodology_option_c.md).
 
 See `/docs/VISUAL_AFFIDAVIT.md` for detailed visual documentation of:
 - The three domains (Gravity, Matter, Biology)
