@@ -14,6 +14,18 @@ This repository implements the Imperial Physics framework, which establishes **X
 
 We do not model the boundary; we monitor it. Traditional physics uses calculus to model boundaries. Imperial Physics uses dimensionless geometric ratios to observe and validate fundamental constraints.
 
+### Visual Affidavit
+
+## 📸 Visual Affidavits: The Evidence
+
+### **Exhibit A: The Physics Proof (Mode 8 Step-Down)**
+*The vacuum does not flow; it steps. Note the quantized recovery plateaus (Mode 4 → Mode 2) after the Jan 23rd event.*
+![Mode 8 Event Graph](docs/mode8_event.png)
+
+### **Exhibit B: The Biological Proof (The 20.55 Hz Key)**
+*The Imperial coupling constant ($\Lambda = \chi / \alpha$) predicts the exact resonant frequency of cellular microtubules.*
+![Bio-Resonance Audit](docs/bio_resonance_audit.png)
+
 ## Repository Structure
 
 ```
