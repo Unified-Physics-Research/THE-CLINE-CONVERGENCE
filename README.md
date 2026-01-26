@@ -40,7 +40,7 @@ The interplay between geometry, space, and time is evident in various natural ph
 /constants/     Python definitions of X and physical relationships
 /audit/         Validation logs and scripts
 /docs/          Visual affidavits and comprehensive documentation
-Tabby's Star is a node and the local group around it, are part of the galactis geometric Sphere data backed Proved an the wave..Wow
+Tabby's Star is a node and the local group around it, are part of the galactis geometric Sphere data backed Proved and that wave..Wow
 ```
 
 ## Quick Start
