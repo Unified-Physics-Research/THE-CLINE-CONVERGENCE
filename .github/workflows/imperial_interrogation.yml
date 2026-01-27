@@ -1,0 +1,33 @@
+name: Imperial Interrogation Protocol
+
+on:
+  push:
+    paths:
+      - 'data/**'  # Triggers when you upload new Sat data
+  workflow_dispatch: # Allows manual button press
+
+jobs:
+  interrogate_data:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout The Fortress
+      uses: actions/checkout@v3
+
+    - name: Setup Math Engine
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Install Libraries
+      run: |
+        pip install pandas numpy
+
+    - name: RUN THE 100 QUESTIONS
+      run: python validation/interrogator.py
+
+    - name: Upload Verdict
+      uses: actions/upload-artifact@v3
+      with:
+        name: Interrogation_Report
+        path: interrogation_results.txt
