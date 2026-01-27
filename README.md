@@ -84,6 +84,13 @@ print(f"Λ = {LAMBDA_BIO} Hz")
 
 ## Key Results
 
+IMPERIAL INTERROGATION REPORT
+-----------------------------
+Standard Correlation: 0.9391714245397225
+Imperial Correlation: 0.9418057040980544
+Max Chi: 0.14973672454967668
+VERDICT: LOGIC CONFIRMED.  
+
 ### Geometric Vacuum Substrate Verified 2026-01-26  
 
 | Parameter | Value | Validation |
