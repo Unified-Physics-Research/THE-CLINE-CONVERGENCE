@@ -12,10 +12,10 @@ jobs:
     
     steps:
     - name: Checkout The Fortress
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4  # Updated to v4 for safety
 
     - name: Setup Math Engine
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5 # Updated to v5 for safety
       with:
         python-version: '3.9'
 
@@ -27,7 +27,7 @@ jobs:
       run: python validation/interrogator.py
 
     - name: Upload Verdict
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4  # <--- THE CRITICAL FIX (v3 is dead)
       with:
         name: Interrogation_Report
         path: interrogation_results.txt
