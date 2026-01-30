@@ -20,7 +20,7 @@ We do not model the boundary; we monitor it. Traditional physics uses calculus t
 
 ## 📸 Visual Affidavits: The Evidence
 
-### **Exhibit A: The Physics Proof (Mode 8 Step-Down)**
+### **Exhibit A: The Physics Proof (Mode 6 Step-Down)**
 *The vacuum does not flow; it steps. Note the quantized recovery plateaus (Mode 4 → Mode 2) after the Jan 23rd event.*
 ![Mode 8 Event Graph](docs/mode8_event.png)
 
